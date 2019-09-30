@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Puppy</string>
+    <string name="mensagem_inicial">Bem vindo ao Puppy</string>
+    <string name="action_buscar">Buscar</string>
+    <string name="action_adicionar">Adicionar</string>
+    <string name="action_sair">Sair</string>
+    <string name="action_atualizar">Atualizado</string>
+</resources>
