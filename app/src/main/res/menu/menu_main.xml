@@ -17,9 +17,9 @@
             app:showAsAction="ifRoom"
             />
 
-        <item android:id="@+id/action_atualizar"
+        <item android:id="@+id/action_config"
             android:icon="@drawable/ic_atualizar_white"
-            android:title="@string/action_atualizar"
+            android:title="@string/action_config"
             app:showAsAction="never"
             />
 

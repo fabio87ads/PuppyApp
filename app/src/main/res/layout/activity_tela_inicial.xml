@@ -11,20 +11,29 @@
     <include layout="@layout/toolbar"/>
 
     <LinearLayout
-
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:padding="16dp">
 
-    <TextView
-        android:id="@+id/texto_tela_inicial"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="TextView"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="25dp" />
+        <Button
+            android:id="@+id/butao_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cadastrar Usuário" />
 
+        <Button
+            android:id="@+id/butao_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cadastrar Puppy" />
+
+        <Button
+            android:id="@+id/butao_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Suporte" />
     </LinearLayout>
+
 
 </LinearLayout>
