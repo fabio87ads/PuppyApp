@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Perfil">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/perfil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#673AB7"
+            android:textSize="24dp"
+            android:text="Olá Aluno" />
+
+        <TextView
+            android:id="@+id/nome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="Nome:" />
+
+        <TextView
+            android:id="@+id/campo_nome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#673AB7"
+            android:text="Nome"
+            android:inputType="textPersonName" />
+        <TextView
+            android:id="@+id/cpf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="CPF:" />
+
+        <TextView
+            android:id="@+id/campo_cpf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#673AB7"
+            android:text="XXXXXXXXXX-XX"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/celular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="Celular:" />
+
+        <TextView
+            android:id="@+id/campo_celular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#673AB7"
+            android:gravity="start|top"
+            android:text="(XX)X XXXX-XXXX"
+            android:inputType="phone" />
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="E-mail:" />
+
+        <TextView
+            android:id="@+id/campo_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#673AB7"
+            android:text="e-mail@e-mail.com"
+            android:inputType="textEmailAddress" />
+
+        <Button
+            android:id="@+id/botao_editar_usuario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#77D353"
+            android:text="Editar"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

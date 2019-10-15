@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/mensagem_inicial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#673AB7"
+        android:textSize="24dp"
+        android:text="@string/mensagem_inicial" />
+
+    <TextView
+        android:id="@+id/usuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="Usuário" />
+
+    <EditText
+        android:id="@+id/campo_usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Digite o nome de usuário"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/senha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="Senha" />
+
+    <EditText
+        android:id="@+id/campo_senha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint= "Digite a senha"/>
+
+    <Button
+        android:id="@+id/botao_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#77D353"
+        android:text="LOGIN"
+        android:textColor="#FFFFFF"
+        android:stateListAnimator="@null"
+        android:textSize="24sp" />
+
+
+    <ImageView
+        android:id="@+id/dog_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

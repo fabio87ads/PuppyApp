@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/mensagem_inicial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#673AB7"
+        android:textSize="24dp"
+        android:text="@string/cadastro_usuario" />
+
+    <TextView
+        android:id="@+id/nome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="Nome:" />
+
+    <EditText
+        android:id="@+id/campo_nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Digite seu nome completo"
+        android:inputType="textPersonName" />
+    <TextView
+        android:id="@+id/cpf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="CPF:" />
+
+    <EditText
+        android:id="@+id/campo_cpf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Digite seu CPF"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/celular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="Celular:" />
+
+    <EditText
+        android:id="@+id/campo_celular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Digite seu numero do celular"
+        android:inputType="phone" />
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="E-mail:" />
+
+    <EditText
+        android:id="@+id/campo_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Digite seu e-mail"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:id="@+id/senha_cadastro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="Senha:" />
+
+    <EditText
+        android:id="@+id/campo_senha_cadastro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint= "Digite uma senha"/>
+    <TextView
+        android:id="@+id/senha_cadastro_confirma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="Confirma Senha:" />
+
+    <EditText
+        android:id="@+id/campo_senha_cadastro_confirma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint= "Digite a senha novamente"/>
+
+    <Button
+        android:id="@+id/botao_Cadastrar_usuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#77D353"
+        android:text="CADASTRAR"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+
+</LinearLayout>
+

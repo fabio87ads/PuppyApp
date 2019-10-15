@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Meu_Puppy">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/puppy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#673AB7"
+            android:textSize="24dp"
+            android:text="Seu Puppy" />
+
+        <TextView
+            android:id="@+id/nome_puppy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="Nome:" />
+
+        <TextView
+            android:id="@+id/campo_nome_puppy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#673AB7"
+            android:text="Nome"
+            android:inputType="textPersonName" />
+        <TextView
+            android:id="@+id/raça"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="Raça:" />
+
+        <TextView
+            android:id="@+id/campo_raça"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#673AB7"
+            android:text="Raça"
+            android:inputType="textPersonName" />
+        <TextView
+            android:id="@+id/sexo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="Sexo:" />
+
+        <TextView
+            android:id="@+id/campo_sexo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#673AB7"
+            android:text="Sexo"
+            android:inputType="textPersonName" />
+        <TextView
+            android:id="@+id/porte"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="Porte:" />
+
+        <TextView
+            android:id="@+id/campo_porte"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#673AB7"
+            android:text="Porte"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/data_nacimento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="Data de Nascimento:" />
+
+        <TextView
+            android:id="@+id/campo_data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#673AB7"
+            android:inputType="date"
+            android:text="XX/XX/XXXX"/>
+
+
+        <Button
+            android:id="@+id/botao_editar_puppy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#77D353"
+            android:text="Editar"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

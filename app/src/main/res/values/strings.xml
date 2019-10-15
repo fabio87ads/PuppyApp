@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Puppy</string>
+    <string name="mensagem_inicial">Bem vindo ao Puppy</string>
+    <string name="action_buscar">Buscar</string>
+    <string name="action_adicionar">Adicionar</string>
+    <string name="action_sair">Sair</string>
+    <string name="action_notificacao">Notificação</string>
+    <string name="cadastro_usuario">Faça seu cadastro</string>
+    <string name="cadastro_puppy">Faça o cadastro de seu puppy</string>
+    <string name="open">Aberto</string>
+    <string name="close">Fechado</string>
+
+
+</resources>
