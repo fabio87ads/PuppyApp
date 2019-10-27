@@ -102,7 +102,7 @@ class TelaInicialActivity : DebugActivity(),
             }
             R.id.nav_atividades ->{
                 Toast.makeText(this,"Atividades", Toast.LENGTH_SHORT).show()
-                val intent = Intent (this, Atividade::class.java)
+                val intent = Intent (this, TelaAtividadeActivity::class.java)
                 startActivity(intent)
             }
             R.id.nav_saude ->{

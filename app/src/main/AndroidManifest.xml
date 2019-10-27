@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="br.com.fabio.puppy">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,7 +11,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SaudeActivity"></activity>
+        <activity android:name=".AdicionarListaActivity"></activity>
+        <activity
+            android:name=".AtividadeActivity"
+            android:parentActivityName=".TelaAtividadeActivity"
+            android:theme="@style/AppTheme.Toolbar" />
+        <activity android:name=".TelaAtividadeActivity" />
+        <activity android:name=".SaudeActivity" />
         <activity android:name=".PasseioActivity" />
         <activity android:name=".Atividade" />
         <activity android:name=".Meu_Puppy" />
@@ -22,7 +30,9 @@
             android:name=".TelaInicialActivity"
             android:theme="@style/AppTheme.Toolbar" />
         <activity android:name=".DebugActivity" />
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

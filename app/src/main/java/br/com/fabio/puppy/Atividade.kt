@@ -1,25 +1,16 @@
 package br.com.fabio.puppy
 
-import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
-import android.view.MenuItem
+import java.io.Serializable
 
-class Atividade : AppCompatActivity() {
+class Atividade : Serializable {
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_atividade)
-        supportActionBar?.setDisplayHomeAsUpEnabled(true)
-        supportActionBar?.title = ("Atividades")
+    var id:Long = 0
+    var nome = ""
+    var ementa = ""
+    var foto = ""
+    var professor = ""
 
-    }
-
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        val id = item.itemId
-
-        if (id == android.R.id.home) {
-            finish()
-        }
-        return super.onOptionsItemSelected(item)
+    override fun toString(): String {
+        return "Atividade(nome='$nome')"
     }
 }

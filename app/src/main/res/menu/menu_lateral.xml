@@ -12,11 +12,11 @@
             android:icon="@drawable/ic_configuracoes_black" />
         <item
             android:id="@+id/nav_passeios"
-            android:title="Passeios"
+            android:title="Passeio"
             android:icon="@drawable/ic_adicionar_black" />
         <item
             android:id="@+id/nav_atividades"
-            android:title="Atividade"
+            android:title="Atividades"
             android:icon="@drawable/ic_adicionar_black" />
         <item
             android:id="@+id/nav_saude"
