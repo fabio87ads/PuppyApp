@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#FAF9D8"
     tools:context=".AdicionarListaActivity">
 
     <EditText
@@ -14,7 +15,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:hint="Nome"
+        android:hint="Nome do puppy"
         android:textSize="26sp"
         android:padding="16dp" />
 
@@ -24,7 +25,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:hint="Ementa"
+        android:hint="Nome do usuário"
         android:textSize="26sp"
         android:padding="16dp" />
 
@@ -34,7 +35,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:hint="Professor"
+        android:hint="Passeio"
         android:textSize="26sp"
         android:padding="16dp" />
 
@@ -44,12 +45,14 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:hint="Imagem"
+        android:hint="Imagem do passeio"
         android:textSize="26sp"
         android:padding="16dp" />
 
     <Button
         android:id="@+id/botao_salvar"
+        android:background="#77D353"
+        android:textColor="#FFFFFF"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Salvar" />

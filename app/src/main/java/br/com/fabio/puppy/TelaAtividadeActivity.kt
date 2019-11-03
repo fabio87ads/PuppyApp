@@ -27,6 +27,9 @@ class TelaAtividadeActivity : AppCompatActivity() {
         recyclerAtividades?.itemAnimator = DefaultItemAnimator()
         recyclerAtividades?.setHasFixedSize(true)
 
+        Prefs.setString("","")
+        Prefs.getString("")
+
     }
 
     override fun onResume() {
@@ -63,6 +66,15 @@ class TelaAtividadeActivity : AppCompatActivity() {
             val intent = Intent (this, AdicionarListaActivity::class.java)
             startActivity(intent)
 
+        } else if (id == R.id.action_sair) {
+            Toast.makeText(this, "Sair", Toast.LENGTH_SHORT).show()
+            val intent = Intent (this, TelaInicialActivity::class.java)
+            startActivity(intent)
+            finish()
+        } else if (id == R.id.action_notificacao) {
+            Toast.makeText(this, "Notificação", Toast.LENGTH_SHORT).show()
+            val intent = Intent (this, NotificacaoActivity::class.java)
+            startActivity(intent)
         } else if (id == android.R.id.home) {
             finish()
         }
